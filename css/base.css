@@ -11,3 +11,69 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.2em;
+}
+
+header{
+	background: #E77E5A;
+}
+
+header h1{
+	font-size: 3em;
+	padding: 1em;
+	padding-top: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav{
+	background: #E7A55A;
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding: 1em;
+	width: 100%;
+}
+
+nav ul#menu{
+	text-align: center;
+}
+
+nav ul#menu li{
+	display: inline-block;
+	text-transform: uppercase;
+	width: 200px;
+}
+
+nav ul#menu li a{
+	text-decoration: none;
+}
+
+footer{
+	background: #000;
+	color: #FFF;
+	font-size: 1.5em;
+	padding: 1em;
+	text-align: center;
+}
+
+#b1{
+	background: #0DA4B6;
+}
+
+#b2{
+	background: #0D77B6;
+}
+
+#b3{
+	background: #4E4C5C;		
+}
+
+.contenedor{
+	height: auto;
+	max-width: 100%;
+	padding: 1.5em;
+}
